@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://i.pinimg.com/736x/32/f0/ec/32f0ec65740c3463efe467fa58200bed.jpg');
+    background-color: #f4f4f4;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 0;
+}
+
+.title {
+    font-size: 48px;
+    color: #02bcf0;
+    text-align: center;
+    text-shadow: 2px 2px ;
+    margin-bottom: 20px;
+}
+
+.instructions {
+
+    font-size: 25px;
+    font-style: italic;
+    color: rgb( rgb(13, 235, 243));
+    border-radius: 5px;
+    max-width: 600px;
+}
+.heading{
+    
+    font-size: 25px;
+    color: #32033d;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 100px); 
+    grid-template-rows: repeat(5, 100px); 
+    gap: 0; 
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dirty {
+    background-image: url('https://thumbs.dreamstime.com/b/dust-wood-floor-dirt-dirt-under-bed-90924960.jpg'); 
+}
+
+.clean {
+    background-image: url('https://i.pinimg.com/originals/41/d0/f1/41d0f17cd6cf3f4f71276217201ec172.jpg'); 
+}
+
+.vacuum {
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.u8nI-ewqL4K9Apnxm3z6TAAAAA&pid=Api&P=0&h=180'); 
+    background-size: contain;
+}
+
+.end-game {
+    font-size: 30px;
+    color:navy;
+    font-weight: bold;
+    margin-top: 30px;
+    visibility: hidden; 
+}
